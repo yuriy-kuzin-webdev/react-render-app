@@ -1,0 +1,62 @@
+.container {
+  height: 100vh;
+  width: 100wv;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.areaContainer {
+  width: 100wv;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.help {
+  margin-left: 40px;
+}
+.help div {
+  margin-bottom: 20px;
+  position: relative;
+}
+.help div span {
+  background-color: rgb(255, 167, 158);
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.area {
+  position: relative;
+  border: 5px solid rgb(90, 90, 90);
+  width: 600px;
+  height: 600px;
+  background-color: rgb(255, 167, 158);
+  box-shadow: 0 0 0 0.3em rgb(95, 95, 95),
+              0 0 0 0.4em rgb(100, 100, 100),
+              0 0 0 0.5em rgb(110, 110, 110),
+              0 0 0 0.6em rgb(120, 120, 120),
+              0 0 0 0.7em rgb(138, 138, 138)
+}
+.score {
+  width: 600px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.score div {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.nickname {
+  margin-bottom: 40px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+}

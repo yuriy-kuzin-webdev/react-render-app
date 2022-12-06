@@ -1,0 +1,17 @@
+.feed{
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    border: 2px solid grey;
+    border-radius: 10%;
+    z-index: 1;
+}
+.first {
+    background-color: yellow;
+}
+.second {
+    background-color: blue;
+}
+.third {
+    background-color: red;
+}
