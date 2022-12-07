@@ -18,7 +18,7 @@ function List({handleMenuClick}) {
   }
   useEffect(() => {
     getLeaders()
-  })
+  },[])
   return (
     <div className={classes.container}>
       {leaders.length > 0 && (
